@@ -1,0 +1,36 @@
+.body {
+    background-color: yellow;
+}
+
+.cirkel {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #748CAB;
+    margin: 10px;
+}
+.section-one {
+    display:flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: flex-start; /* looks like the distance is to big*/
+    flex-wrap: wrap;
+    width: 273px;
+    height: 220px;
+    background-color: #03071E;
+    margin: 20px;
+    }
+   
+.section-two {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-items: ;
+    align-items: ; /* looks like the distance is to big*/
+    flex-wrap: wrap-reverse;
+    width: 273px;
+    height: 220px;
+    background-color: #6A040F;
+    margin: 20px;
+}
+
+

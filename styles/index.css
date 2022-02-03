@@ -1,8 +1,9 @@
 body {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
     flex-wrap: wrap;
     max-width: 1000px;
     background-color: yellow;
@@ -76,14 +77,3 @@ body {
     align-content: center;
     }
 
-.section-six {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 273px;
-    height: 220px;
-    background-color: yellow;
-    margin: 20px;
-    align-content: center;
-    }

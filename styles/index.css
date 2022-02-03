@@ -1,4 +1,12 @@
 .body {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max width: 900px;
+    background-color: #03071E;
+    margin: 20px;
     background-color: yellow;
 }
 
@@ -33,4 +41,14 @@
     margin: 20px;
 }
 
+.section-tree {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 273px;
+    height: 220px;
+    background-color: #03071E;
+    margin: 20px;
+    }
 

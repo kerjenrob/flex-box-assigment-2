@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     max width: 900px;
     background-color: #03071E;
-    margin: 20px;
     background-color: yellow;
 }
 
@@ -44,11 +43,22 @@
 .section-tree {
     display:flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     width: 273px;
     height: 220px;
     background-color: #03071E;
+    margin: 20px;
+    }
+
+.section-four {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 273px;
+    height: 220px;
+    background-color: #6A040F;
     margin: 20px;
     }
 
